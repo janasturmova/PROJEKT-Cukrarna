@@ -32,12 +32,14 @@ html { box-sizing: border-box; }
 body {
 	margin: 0;
 	font-family: Lora, serif;
+	line-height: 1.5;
 }
 
 h1 {
 	font-family: Playfair Display, serif;
 	font-weight: 700;
 	font-size: 52px;
+	margin-top: 0;
 }
 
 h2 {
@@ -45,6 +47,7 @@ h2 {
 	font-weight: 700;
 	font-size: 36px;
 	color: #3e606b;
+	margin: 0;
 }
 
 h3 {
@@ -84,22 +87,27 @@ nav a:hover {
 	border-radius: 20px;
 }
 
-.hero {
+.hero-foto {
 	background-image: url(images/cupcake.jpg);
 	background-position: center;
 	background-size: 100%;
+	 }
+
+.hero {	
 	color: white;
 	font-size: 24px;
-	font-style: italic;
 	padding-top: 80px;
 	padding-bottom: 80px;
+	width: 1100px;
 	margin: 0 auto;
-	
 }
 
 .hero p {
 	padding-right: 40%;
+	font-style: italic;
+	margin-bottom: 0;
 }
+
 
 .vitejte {
 	display: flex;
@@ -133,17 +141,17 @@ nav a:hover {
 	border-radius: 5px;
 }
 	
-
 .produkt {
 	display: flex;
 	flex-direction: column;
-	box-shadow: 1px 1px 10px #303339;
-	width: 250px;
+	box-shadow: 1px 1px 5px #9699a0;
+	max-width: 250px;
 	margin-right: 30px;
+	border-radius: 5px;
 }
 
 .dort {
-	border-radius: 5px;
+	border-radius: 5px 5px 0 0;
 	background-color: #f0f0f0;
 }
 
@@ -152,6 +160,7 @@ nav a:hover {
 	padding: 20px;
 	text-align: center;
 	background-color: white;
+	border-radius: 0 0 5px 5px;
 }
 
 .nabidka {
